@@ -1,0 +1,36 @@
+Jobs between 2018-03-01 00:00:00 and 2018-05-01 00:00:00
+Sampled jobs (sampleID sample2), 345518 of total 383909 entries (share 0.8999997395216054)
+
+Job types (all types):
+           Type   Count  countPerDay  relFrequency
+0      analysis  101919  1670.803279      0.294975
+1        hctest   16393   268.737705      0.047445
+2      hcxrootd    7572   124.131148      0.021915
+3    production    6425   105.327869      0.018595
+4        relval    5739    94.081967      0.016610
+5  reprocessing  207459  3400.967213      0.600429
+6          test      11     0.180328      0.000032
+
+Total jobs: 345518
+Total days: 61
+Jobs per day: 5664.229508196721
+All data valid for the single sample, sample share 0.8999997395216054
+
+## Data scaled up for the total data set based on sample share:
+Total jobs: 383909.0
+Total days: 61
+Jobs per day: 6293.5901639344265
+
+## Data from job reports (FULL data set):
+Total CPU time / Walltime efficiency: 0.5601532249843221
+Total CPU time / Walltime efficiency scaled by jobslot count and virtual cores: 0.45985258448081623
+Total CPU time / Walltime efficiency scaled by jobslot count and physical cores: 0.889458615228166
+Mean number of pilot slots for CMS: 7844.780799930492
+
+## Data from job reports (ONLY single sample):
+Total CPU time / Walltime efficiency: 0.5606098979570093
+Total CPU time / Walltime efficiency scaled by jobslot count and virtual cores: 0.4601370799449354
+Total CPU time / Walltime efficiency scaled by jobslot count and physical cores: 0.8899687143171713
+
+## Data from other sources (FULL data set):
+Total CPU Efficiency from 2018-03-01 00:00:00 to 2018-05-01 00:00:00 (from GridKa perspective, with Pilots): 0.6101680660662012
