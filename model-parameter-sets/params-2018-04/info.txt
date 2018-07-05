@@ -1,11 +1,24 @@
-           Type  count WallTime.mean CPUDemand.mean estimatedIOTime.mean estimatedIOTime.sd relFrequency
-1:     analysis  39376      5128.106      55060.767             650.1154          1793.7288   0.21529410
-2:       hctest   9487      1643.834      18195.941             166.1690           369.4809   0.05187158
-3:     hcxrootd   2260      2880.544       9707.865            2079.8055          1301.9167   0.01235688
-4:   production   6089     20206.026     848017.442           11458.3077          7505.1322   0.03329251
-5:       relval   2260      4164.888     186033.393             359.8052           399.6404   0.01235688
-6: reprocessing 123422      6472.298     262602.995            2241.2057          6126.4938   0.67482804
+Jobs between 2018-04-01 00:00:00 and 2018-05-01 00:00:00
 
-Total jobs:  182894
-Days: 30
-Jobs/day: 6096.466666667
+Job types (all types):
+           Type   Count  countPerDay  relFrequency
+0      analysis   39395  1313.166667      0.215390
+1        hctest    9482   316.066667      0.051842
+2      hcxrootd    2256    75.200000      0.012335
+3    production    6082   202.733333      0.033253
+4        relval    2260    75.333333      0.012356
+5  reprocessing  123425  4114.166667      0.674819
+6          test       1     0.033333      0.000005
+
+Total jobs: 182901
+Total days: 30
+Jobs per day: 6096.700000000001
+
+## Data from job reports:
+Total CPU time / Walltime efficiency: 0.5558418918224729
+Total CPU time / Walltime efficiency scaled by jobslot count and virtual cores: 0.45635379441629587
+Total CPU time / Walltime efficiency scaled by jobslot count and physical cores: 0.8870993767302316
+Mean number of pilot slots for CMS: 7844.780799930492
+
+## Data from other sources (FULL data set):
+Total CPU Efficiency from 2018-04-01 00:00:00 to 2018-05-01 00:00:00 (from GridKa perspective, with Pilots): 0.6101680660662012
