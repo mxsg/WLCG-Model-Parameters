@@ -1,0 +1,34 @@
+{
+    "workflow": "workflows.gridkacalibration.GridKaCalibration",
+    "runName": "May 2018",
+    "startDate": "2018-05-01",
+    "endDate": "2018-06-01",
+    "cacheDir": "data/caches-may",
+    "outputDirectory": "../simulations/may-ratio-logical",
+    "workflowOptions": {
+        "coreSimulationMethod": "logical",
+        "overflowAggregationMethod": "median",
+        "threadPerformanceMethod": "jobslots",
+        "typeSplitCols": ["JobType", "UsedCores"],
+        "splitTypes": [
+            ["reprocessing1.0", "CPUIdleTimeRatio", 0.6]
+        ],
+        "additionalJobOptions": {
+            "schedulingDelay": 0,
+            "useIoRatio": true,
+            "resourceDemandRounds": "10"
+        }
+    },
+    "inputPaths": {
+        "jm": "/Volumes/storage/ba-thesis/cmsdata/jobmonitoring-header/jm-dataset.json",
+        "wma": "/Volumes/storage/ba-thesis/cmsdata/wmarchive-flattened-json/wm-dataset.json",
+        "jobCountsReference": "data/job_counts_activities-2018-01-07.csv",
+        "CPUEfficiencyReference": "data/cpu-efficiency-pilots.csv",
+        "nodeInfo": "data/gridka-benchmarks-2017.csv",
+        "coreUsage": "data/gridka_core_usage.csv"
+    },
+    "outputPaths": {
+        "jobCountReports": "job_counts_reference_extracted_reports.csv",
+        "walltimeReference": "job_walltimes_references.csv"
+    }
+}
