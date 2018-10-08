@@ -6,7 +6,6 @@
         "relativeFrequency": 0.4744378980388552,
         "requiredJobslotsStoEx": "1",
         "resourceDemandRounds": "10",
-        "schedulingDelay": 0,
         "typeName": "reprocessing1.0lower",
         "useIoRatio": true
     },
@@ -17,7 +16,6 @@
         "relativeFrequency": 0.15118079474193724,
         "requiredJobslotsStoEx": "1",
         "resourceDemandRounds": "10",
-        "schedulingDelay": 0,
         "typeName": "reprocessing1.0upper",
         "useIoRatio": true
     },
@@ -28,7 +26,6 @@
         "relativeFrequency": 0.1479174865632711,
         "requiredJobslotsStoEx": "1",
         "resourceDemandRounds": "10",
-        "schedulingDelay": 0,
         "typeName": "production1.0",
         "useIoRatio": true
     },
@@ -39,7 +36,6 @@
         "relativeFrequency": 0.09953089944931674,
         "requiredJobslotsStoEx": "8",
         "resourceDemandRounds": "10",
-        "schedulingDelay": 0,
         "typeName": "reprocessing8.0",
         "useIoRatio": true
     },
@@ -50,7 +46,6 @@
         "relativeFrequency": 0.03839270581678938,
         "requiredJobslotsStoEx": "1",
         "resourceDemandRounds": "10",
-        "schedulingDelay": 0,
         "typeName": "analysis1.0",
         "useIoRatio": true
     },
@@ -61,7 +56,6 @@
         "relativeFrequency": 0.025612372993826717,
         "requiredJobslotsStoEx": "1",
         "resourceDemandRounds": "10",
-        "schedulingDelay": 0,
         "typeName": "hctest1.0",
         "useIoRatio": true
     },
@@ -72,7 +66,6 @@
         "relativeFrequency": 0.025494595145829083,
         "requiredJobslotsStoEx": "2",
         "resourceDemandRounds": "10",
-        "schedulingDelay": 0,
         "typeName": "reprocessing2.0",
         "useIoRatio": true
     },
@@ -83,7 +76,6 @@
         "relativeFrequency": 0.020326732986128068,
         "requiredJobslotsStoEx": "4",
         "resourceDemandRounds": "10",
-        "schedulingDelay": 0,
         "typeName": "reprocessing4.0",
         "useIoRatio": true
     },
@@ -94,7 +86,6 @@
         "relativeFrequency": 0.007600980141505775,
         "requiredJobslotsStoEx": "8",
         "resourceDemandRounds": "10",
-        "schedulingDelay": 0,
         "typeName": "relval8.0",
         "useIoRatio": true
     },
@@ -105,7 +96,6 @@
         "relativeFrequency": 0.004484176115226952,
         "requiredJobslotsStoEx": "4",
         "resourceDemandRounds": "10",
-        "schedulingDelay": 0,
         "typeName": "relval4.0",
         "useIoRatio": true
     },
@@ -116,7 +106,6 @@
         "relativeFrequency": 0.002697399982189691,
         "requiredJobslotsStoEx": "8",
         "resourceDemandRounds": "10",
-        "schedulingDelay": 0,
         "typeName": "production8.0",
         "useIoRatio": true
     },
@@ -127,7 +116,6 @@
         "relativeFrequency": 0.0013558815671922623,
         "requiredJobslotsStoEx": "1",
         "resourceDemandRounds": "10",
-        "schedulingDelay": 0,
         "typeName": "relval1.0",
         "useIoRatio": true
     },
@@ -138,7 +126,6 @@
         "relativeFrequency": 0.0009680764579317636,
         "requiredJobslotsStoEx": "4",
         "resourceDemandRounds": "10",
-        "schedulingDelay": 0,
         "typeName": "production4.0",
         "useIoRatio": true
     }
